@@ -1,0 +1,1 @@
+Resolving Task shell basics
