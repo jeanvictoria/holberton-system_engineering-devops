@@ -1,0 +1,5 @@
+#! / usr / bin / env bash
+# crear copia de seguridad
+mysqldump -u root -p " $ 1 " --opt --todas las bases de datos > backup.sql
+hora = $ ( fecha + " % d-% m-% Y " )
+tar -czvf " $ time " .tar.gz backup.sql
